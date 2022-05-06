@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+}
+
+.entire-body{
+    display: flex;
+    justify-content:flex-start;
+    background-color: bisque;
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: blueviolet;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.title-input {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.input-number {
+    width: 100px;
+    height: 30px;
+    
+}
+
+.submit-button {
+    width: 100px;
+    height: 60px;
+    color: white;
+    background-color: red;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.heading {
+        display: flex;
+        flex-direction: column;
+        height: 320px;
+        width: 100%;
+        background-color: aqua;
+        align-items: center;}
+
+.number-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    
+}
+
+#number-passed {font-size: 20px;margin-top:40px;}
+#entered-number {font-size: 30px;}
