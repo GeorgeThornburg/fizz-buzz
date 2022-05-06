@@ -25,10 +25,11 @@ body {
     color: blueviolet;
     padding-top: 40px;
     padding-bottom: 30px;
+    font-size: 5vw;
 }
 
 .title-input {
-    font-size: 30px;
+    font-size: 4vw;
     padding-bottom: 20px;
 }
 
@@ -43,17 +44,18 @@ body {
     height: 60px;
     color: white;
     background-color: red;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 25px;
 }
 
 .heading {
         display: flex;
         flex-direction: column;
-        height: 320px;
+        height: 100%;
         width: 100%;
         background-color: aqua;
-        align-items: center;}
+        align-items: center;
+        padding-bottom: 20px;}
 
 .number-container{
     width: 100%;
@@ -67,4 +69,4 @@ body {
 }
 
 #number-passed {font-size: 20px;margin-top:40px;}
-#entered-number {font-size: 30px;}
+#entered-number {font-size: 3vw;}
